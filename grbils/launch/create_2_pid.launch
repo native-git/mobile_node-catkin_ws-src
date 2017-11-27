@@ -1,0 +1,6 @@
+<launch>
+
+<node pkg="grbils" type="create_pid_ros_node.py" name="create_pid_ros_node" ns="roomba3" />
+<node pkg="grbils" type="create_2_bumper_stop.py" name="create_2_bumper_stop" ns="roomba3" />
+
+</launch>

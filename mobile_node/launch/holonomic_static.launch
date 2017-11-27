@@ -1,0 +1,11 @@
+
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="grid_2_map" args="0 0 -3.189 0 0 0 ceiling_grid map 10"/>
+
+<!--<node pkg="tf" type="static_transform_publisher" name="map_2_target" args="1.0 0.0 0 0 0 0 map target 10"/>-->
+
+<node pkg="tf" type="static_transform_publisher" name="cam_2_robot" args="0 0 0 0.7854 0 0 hd_cam_new holonomic_drive 10"/>
+
+
+</launch>

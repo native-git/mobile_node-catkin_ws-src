@@ -1,0 +1,19 @@
+%YAML:1.0
+
+center_of_rotation:
+  - tag: 0
+    size: 2100
+    translation: [-1800.0, -1800.0, 0.0]
+    keep: true
+  - tag: 1
+    size: 2100
+    translation: [300.0, -1800.0, 0.0]
+    keep: true
+  - tag: 2
+    size: 2100
+    translation: [300.0, 300.0, 0.0]
+    keep: true
+  - tag: 3
+    size: 2100
+    translation: [-1800.0, 300.0, 0.0]
+    keep: true

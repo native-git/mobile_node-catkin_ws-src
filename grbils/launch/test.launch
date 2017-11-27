@@ -1,0 +1,9 @@
+<launch>
+
+<!--
+<node pkg="grbils" type="battery_manager.py" name="battery_manager" ns="roomba3" />
+<node pkg="grbils" type="create_2_return_to_dock.py" name="create_2_return_to_dock" ns="roomba3" />
+-->
+
+<node pkg="grbils" type="arg_test.py" name="arg_test" ns="roomba3" args="hello world"/>
+</launch>

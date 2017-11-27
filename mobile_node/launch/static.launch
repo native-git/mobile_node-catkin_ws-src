@@ -1,0 +1,8 @@
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="grid_2_map" args="0 0 -3.189 0 0 0 ceiling_grid map 10"/>
+
+<!--<node pkg="tf" type="static_transform_publisher" name="cam_2_robot" args="0 0 0 -1.5707 0 0 camera robot 10"/>-->
+<node pkg="tf" type="static_transform_publisher" name="cam_2_robot" args="0 0 0 1.5707 0 0 camera robot 10"/>
+
+</launch>

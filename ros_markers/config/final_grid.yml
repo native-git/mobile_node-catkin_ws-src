@@ -1,0 +1,1851 @@
+%YAML:1.0
+
+ceiling_grid_razpi:
+  - tag: 0
+    size: 193.0
+    translation: [0.0, 0.0, 0.]
+    keep: false
+  - tag: 1
+    size: 193.0
+    translation: [0.0, 914.4, 0.]
+    keep: false
+  - tag: 2
+    size: 193.0
+    translation: [0.0, 1828.8, 0.]
+    keep: false
+  - tag: 3
+    size: 193.0
+    translation: [0.0, 2743.2, 0.]
+    keep: false
+  - tag: 4
+    size: 193.0
+    translation: [0.0, 3657.6, 0.]
+    keep: false
+  - tag: 5
+    size: 193.0
+    translation: [0.0, 4572.0, 0.]
+    keep: false
+  - tag: 6
+    size: 193.0
+    translation: [0.0, 5486.4, 0.]
+    keep: false
+  - tag: 7
+    size: 193.0
+    translation: [0.0, 6400.8, 0.]
+    keep: false
+  - tag: 8
+    size: 193.0
+    translation: [0.0, 7315.2, 0.]
+    keep: false
+  - tag: 9
+    size: 193.0
+    translation: [0.0, 8229.6, 0.]
+    keep: false
+  - tag: 10
+    size: 193.0
+    translation: [0.0, 9144.0, 0.]
+    keep: false
+  - tag: 11
+    size: 193.0
+    translation: [0.0, 10058.4, 0.]
+    keep: false
+  - tag: 12
+    size: 193.0
+    translation: [0.0, 10972.8, 0.]
+    keep: false
+  - tag: 13
+    size: 193.0
+    translation: [0.0, 11887.2, 0.]
+    keep: false
+  - tag: 14
+    size: 193.0
+    translation: [0.0, 12801.6, 0.]
+    keep: false
+  - tag: 15
+    size: 193.0
+    translation: [0.0, 13716.0, 0.]
+    keep: false
+  - tag: 16
+    size: 193.0
+    translation: [0.0, 14630.4, 0.]
+    keep: false
+  - tag: 17
+    size: 193.0
+    translation: [0.0, 15544.8, 0.]
+    keep: false
+  - tag: 18
+    size: 193.0
+    translation: [0.0, 16459.2, 0.]
+    keep: false
+  - tag: 19
+    size: 193.0
+    translation: [0.0, 17373.6, 0.]
+    keep: false
+  - tag: 20
+    size: 193.0
+    translation: [0.0, 18288.0, 0.]
+    keep: false
+  - tag: 21
+    size: 193.0
+    translation: [0.0, 19202.4, 0.]
+    keep: false
+  - tag: 22
+    size: 193.0
+    translation: [914.4, 0.0, 0.]
+    keep: false
+  - tag: 23
+    size: 193.0
+    translation: [914.4, 914.4, 0.]
+    keep: false
+  - tag: 24
+    size: 193.0
+    translation: [914.4, 1828.8, 0.]
+    keep: false
+  - tag: 25
+    size: 193.0
+    translation: [914.4, 2743.2, 0.]
+    keep: false
+  - tag: 26
+    size: 193.0
+    translation: [914.4, 3657.6, 0.]
+    keep: false
+  - tag: 27
+    size: 193.0
+    translation: [914.4, 4572.0, 0.]
+    keep: false
+  - tag: 28
+    size: 193.0
+    translation: [914.4, 5486.4, 0.]
+    keep: false
+  - tag: 29
+    size: 193.0
+    translation: [914.4, 6400.8, 0.]
+    keep: false
+  - tag: 30
+    size: 193.0
+    translation: [914.4, 7315.2, 0.]
+    keep: false
+  - tag: 31
+    size: 193.0
+    translation: [914.4, 8229.6, 0.]
+    keep: false
+  - tag: 32
+    size: 193.0
+    translation: [914.4, 9144.0, 0.]
+    keep: false
+  - tag: 33
+    size: 193.0
+    translation: [914.4, 10058.4, 0.]
+    keep: false
+  - tag: 34
+    size: 193.0
+    translation: [914.4, 10972.8, 0.]
+    keep: false
+  - tag: 35
+    size: 193.0
+    translation: [914.4, 11887.2, 0.]
+    keep: false
+  - tag: 36
+    size: 193.0
+    translation: [914.4, 12801.6, 0.]
+    keep: false
+  - tag: 37
+    size: 193.0
+    translation: [914.4, 13716.0, 0.]
+    keep: false
+  - tag: 38
+    size: 193.0
+    translation: [914.4, 14630.4, 0.]
+    keep: false
+  - tag: 39
+    size: 193.0
+    translation: [914.4, 15544.8, 0.]
+    keep: false
+  - tag: 40
+    size: 193.0
+    translation: [914.4, 16459.2, 0.]
+    keep: false
+  - tag: 41
+    size: 193.0
+    translation: [914.4, 17373.6, 0.]
+    keep: false
+  - tag: 42
+    size: 193.0
+    translation: [914.4, 18288.0, 0.]
+    keep: false
+  - tag: 43
+    size: 193.0
+    translation: [914.4, 19202.4, 0.]
+    keep: false
+  - tag: 44
+    size: 193.0
+    translation: [1828.8, 0.0, 0.]
+    keep: false
+  - tag: 45
+    size: 193.0
+    translation: [1828.8, 914.4, 0.]
+    keep: false
+  - tag: 46
+    size: 193.0
+    translation: [1828.8, 1828.8, 0.]
+    keep: false
+  - tag: 47
+    size: 193.0
+    translation: [1828.8, 2743.2, 0.]
+    keep: false
+  - tag: 48
+    size: 193.0
+    translation: [1828.8, 3657.6, 0.]
+    keep: false
+  - tag: 49
+    size: 193.0
+    translation: [1828.8, 4572.0, 0.]
+    keep: false
+  - tag: 50
+    size: 193.0
+    translation: [1828.8, 5486.4, 0.]
+    keep: false
+  - tag: 51
+    size: 193.0
+    translation: [1828.8, 6400.8, 0.]
+    keep: false
+  - tag: 52
+    size: 193.0
+    translation: [1828.8, 7315.2, 0.]
+    keep: false
+  - tag: 53
+    size: 193.0
+    translation: [1828.8, 8229.6, 0.]
+    keep: false
+  - tag: 54
+    size: 193.0
+    translation: [1828.8, 9144.0, 0.]
+    keep: false
+  - tag: 55
+    size: 193.0
+    translation: [1828.8, 10058.4, 0.]
+    keep: false
+  - tag: 56
+    size: 193.0
+    translation: [1828.8, 10972.8, 0.]
+    keep: false
+  - tag: 57
+    size: 193.0
+    translation: [1828.8, 11887.2, 0.]
+    keep: false
+  - tag: 58
+    size: 193.0
+    translation: [1828.8, 12801.6, 0.]
+    keep: false
+  - tag: 59
+    size: 193.0
+    translation: [1828.8, 13716.0, 0.]
+    keep: false
+  - tag: 60
+    size: 193.0
+    translation: [1828.8, 14630.4, 0.]
+    keep: false
+  - tag: 61
+    size: 193.0
+    translation: [1828.8, 15544.8, 0.]
+    keep: false
+  - tag: 62
+    size: 193.0
+    translation: [1828.8, 16459.2, 0.]
+    keep: false
+  - tag: 63
+    size: 193.0
+    translation: [1828.8, 17373.6, 0.]
+    keep: false
+  - tag: 64
+    size: 193.0
+    translation: [1828.8, 18288.0, 0.]
+    keep: false
+  - tag: 65
+    size: 193.0
+    translation: [1828.8, 19202.4, 0.]
+    keep: false
+  - tag: 66
+    size: 193.0
+    translation: [2743.2, 0.0, 0.]
+    keep: false
+  - tag: 67
+    size: 193.0
+    translation: [2743.2, 914.4, 0.]
+    keep: false
+  - tag: 68
+    size: 193.0
+    translation: [2743.2, 1828.8, 0.]
+    keep: false
+  - tag: 69
+    size: 193.0
+    translation: [2743.2, 2743.2, 0.]
+    keep: false
+  - tag: 70
+    size: 193.0
+    translation: [2743.2, 3657.6, 0.]
+    keep: false
+  - tag: 71
+    size: 193.0
+    translation: [2743.2, 4572.0, 0.]
+    keep: false
+  - tag: 72
+    size: 193.0
+    translation: [2743.2, 5486.4, 0.]
+    keep: false
+  - tag: 73
+    size: 193.0
+    translation: [2743.2, 6400.8, 0.]
+    keep: false
+  - tag: 74
+    size: 193.0
+    translation: [2743.2, 7315.2, 0.]
+    keep: false
+  - tag: 75
+    size: 193.0
+    translation: [2743.2, 8229.6, 0.]
+    keep: false
+  - tag: 76
+    size: 193.0
+    translation: [2743.2, 9144.0, 0.]
+    keep: false
+  - tag: 77
+    size: 193.0
+    translation: [2743.2, 10058.4, 0.]
+    keep: false
+  - tag: 78
+    size: 193.0
+    translation: [2743.2, 10972.8, 0.]
+    keep: false
+  - tag: 79
+    size: 193.0
+    translation: [2743.2, 11887.2, 0.]
+    keep: false
+  - tag: 80
+    size: 193.0
+    translation: [2743.2, 12801.6, 0.]
+    keep: false
+  - tag: 81
+    size: 193.0
+    translation: [2743.2, 13716.0, 0.]
+    keep: false
+  - tag: 82
+    size: 193.0
+    translation: [2743.2, 14630.4, 0.]
+    keep: false
+  - tag: 83
+    size: 193.0
+    translation: [2743.2, 15544.8, 0.]
+    keep: false
+  - tag: 84
+    size: 193.0
+    translation: [2743.2, 16459.2, 0.]
+    keep: false
+  - tag: 85
+    size: 193.0
+    translation: [2743.2, 17373.6, 0.]
+    keep: false
+  - tag: 86
+    size: 193.0
+    translation: [2743.2, 18288.0, 0.]
+    keep: false
+  - tag: 87
+    size: 193.0
+    translation: [2743.2, 19202.4, 0.]
+    keep: false
+  - tag: 88
+    size: 193.0
+    translation: [3657.6, 0.0, 0.]
+    keep: false
+  - tag: 89
+    size: 193.0
+    translation: [3657.6, 914.4, 0.]
+    keep: false
+  - tag: 90
+    size: 193.0
+    translation: [3657.6, 1828.8, 0.]
+    keep: false
+  - tag: 91
+    size: 193.0
+    translation: [3657.6, 2743.2, 0.]
+    keep: false
+  - tag: 92
+    size: 193.0
+    translation: [3657.6, 3657.6, 0.]
+    keep: false
+  - tag: 93
+    size: 193.0
+    translation: [3657.6, 4572.0, 0.]
+    keep: false
+  - tag: 94
+    size: 193.0
+    translation: [3657.6, 5486.4, 0.]
+    keep: false
+  - tag: 95
+    size: 193.0
+    translation: [3657.6, 6400.8, 0.]
+    keep: false
+  - tag: 96
+    size: 193.0
+    translation: [3657.6, 7315.2, 0.]
+    keep: false
+  - tag: 97
+    size: 193.0
+    translation: [3657.6, 8229.6, 0.]
+    keep: false
+  - tag: 98
+    size: 193.0
+    translation: [3657.6, 9144.0, 0.]
+    keep: false
+  - tag: 99
+    size: 193.0
+    translation: [3657.6, 10058.4, 0.]
+    keep: false
+  - tag: 100
+    size: 193.0
+    translation: [3657.6, 10972.8, 0.]
+    keep: false
+  - tag: 101
+    size: 193.0
+    translation: [3657.6, 11887.2, 0.]
+    keep: false
+  - tag: 102
+    size: 193.0
+    translation: [3657.6, 12801.6, 0.]
+    keep: false
+  - tag: 103
+    size: 193.0
+    translation: [3657.6, 13716.0, 0.]
+    keep: false
+  - tag: 104
+    size: 193.0
+    translation: [3657.6, 14630.4, 0.]
+    keep: false
+  - tag: 105
+    size: 193.0
+    translation: [3657.6, 15544.8, 0.]
+    keep: false
+  - tag: 106
+    size: 193.0
+    translation: [3657.6, 16459.2, 0.]
+    keep: false
+  - tag: 107
+    size: 193.0
+    translation: [3657.6, 17373.6, 0.]
+    keep: false
+  - tag: 108
+    size: 193.0
+    translation: [3657.6, 18288.0, 0.]
+    keep: false
+  - tag: 109
+    size: 193.0
+    translation: [3657.6, 19202.4, 0.]
+    keep: false
+  - tag: 110
+    size: 193.0
+    translation: [4572.0, 0.0, 0.]
+    keep: false
+  - tag: 111
+    size: 193.0
+    translation: [4572.0, 914.4, 0.]
+    keep: false
+  - tag: 112
+    size: 193.0
+    translation: [4572.0, 1828.8, 0.]
+    keep: false
+  - tag: 113
+    size: 193.0
+    translation: [4572.0, 2743.2, 0.]
+    keep: false
+  - tag: 114
+    size: 193.0
+    translation: [4572.0, 3657.6, 0.]
+    keep: false
+  - tag: 115
+    size: 193.0
+    translation: [4572.0, 4572.0, 0.]
+    keep: false
+  - tag: 116
+    size: 193.0
+    translation: [4572.0, 5486.4, 0.]
+    keep: false
+  - tag: 117
+    size: 193.0
+    translation: [4572.0, 6400.8, 0.]
+    keep: false
+  - tag: 118
+    size: 193.0
+    translation: [4572.0, 7315.2, 0.]
+    keep: false
+  - tag: 119
+    size: 193.0
+    translation: [4572.0, 8229.6, 0.]
+    keep: false
+  - tag: 120
+    size: 193.0
+    translation: [4572.0, 9144.0, 0.]
+    keep: false
+  - tag: 121
+    size: 193.0
+    translation: [4572.0, 10058.4, 0.]
+    keep: false
+  - tag: 122
+    size: 193.0
+    translation: [4572.0, 10972.8, 0.]
+    keep: false
+  - tag: 123
+    size: 193.0
+    translation: [4572.0, 11887.2, 0.]
+    keep: false
+  - tag: 124
+    size: 193.0
+    translation: [4572.0, 12801.6, 0.]
+    keep: false
+  - tag: 125
+    size: 193.0
+    translation: [4572.0, 13716.0, 0.]
+    keep: false
+  - tag: 126
+    size: 193.0
+    translation: [4572.0, 14630.4, 0.]
+    keep: false
+  - tag: 127
+    size: 193.0
+    translation: [4572.0, 15544.8, 0.]
+    keep: false
+  - tag: 128
+    size: 193.0
+    translation: [4572.0, 16459.2, 0.]
+    keep: false
+  - tag: 129
+    size: 193.0
+    translation: [4572.0, 17373.6, 0.]
+    keep: false
+  - tag: 130
+    size: 193.0
+    translation: [4572.0, 18288.0, 0.]
+    keep: false
+  - tag: 131
+    size: 193.0
+    translation: [4572.0, 19202.4, 0.]
+    keep: false
+  - tag: 132
+    size: 193.0
+    translation: [5486.4, 0.0, 0.]
+    keep: false
+  - tag: 133
+    size: 193.0
+    translation: [5486.4, 914.4, 0.]
+    keep: false
+  - tag: 134
+    size: 193.0
+    translation: [5486.4, 1828.8, 0.]
+    keep: false
+  - tag: 135
+    size: 193.0
+    translation: [5486.4, 2743.2, 0.]
+    keep: false
+  - tag: 136
+    size: 193.0
+    translation: [5486.4, 3657.6, 0.]
+    keep: false
+  - tag: 137
+    size: 193.0
+    translation: [5486.4, 4572.0, 0.]
+    keep: false
+  - tag: 138
+    size: 193.0
+    translation: [5486.4, 5486.4, 0.]
+    keep: false
+  - tag: 139
+    size: 193.0
+    translation: [5486.4, 6400.8, 0.]
+    keep: false
+  - tag: 140
+    size: 193.0
+    translation: [5486.4, 7315.2, 0.]
+    keep: false
+  - tag: 141
+    size: 193.0
+    translation: [5486.4, 8229.6, 0.]
+    keep: false
+  - tag: 142
+    size: 193.0
+    translation: [5486.4, 9144.0, 0.]
+    keep: false
+  - tag: 143
+    size: 193.0
+    translation: [5486.4, 10058.4, 0.]
+    keep: false
+  - tag: 144
+    size: 193.0
+    translation: [5486.4, 10972.8, 0.]
+    keep: false
+  - tag: 145
+    size: 193.0
+    translation: [5486.4, 11887.2, 0.]
+    keep: false
+  - tag: 146
+    size: 193.0
+    translation: [5486.4, 12801.6, 0.]
+    keep: false
+  - tag: 147
+    size: 193.0
+    translation: [5486.4, 13716.0, 0.]
+    keep: false
+  - tag: 148
+    size: 193.0
+    translation: [5486.4, 14630.4, 0.]
+    keep: false
+  - tag: 149
+    size: 193.0
+    translation: [5486.4, 15544.8, 0.]
+    keep: false
+  - tag: 150
+    size: 193.0
+    translation: [5486.4, 16459.2, 0.]
+    keep: false
+  - tag: 151
+    size: 193.0
+    translation: [5486.4, 17373.6, 0.]
+    keep: false
+  - tag: 152
+    size: 193.0
+    translation: [5486.4, 18288.0, 0.]
+    keep: false
+  - tag: 153
+    size: 193.0
+    translation: [5486.4, 19202.4, 0.]
+    keep: false
+  - tag: 154
+    size: 193.0
+    translation: [6400.8, 0.0, 0.]
+    keep: false
+  - tag: 155
+    size: 193.0
+    translation: [6400.8, 914.4, 0.]
+    keep: false
+  - tag: 156
+    size: 193.0
+    translation: [6400.8, 1828.8, 0.]
+    keep: false
+  - tag: 157
+    size: 193.0
+    translation: [6400.8, 2743.2, 0.]
+    keep: false
+  - tag: 158
+    size: 193.0
+    translation: [6400.8, 3657.6, 0.]
+    keep: false
+  - tag: 159
+    size: 193.0
+    translation: [6400.8, 4572.0, 0.]
+    keep: false
+  - tag: 160
+    size: 193.0
+    translation: [6400.8, 5486.4, 0.]
+    keep: false
+  - tag: 161
+    size: 193.0
+    translation: [6400.8, 6400.8, 0.]
+    keep: false
+  - tag: 162
+    size: 193.0
+    translation: [6400.8, 7315.2, 0.]
+    keep: false
+  - tag: 163
+    size: 193.0
+    translation: [6400.8, 8229.6, 0.]
+    keep: false
+  - tag: 164
+    size: 193.0
+    translation: [6400.8, 9144.0, 0.]
+    keep: false
+  - tag: 165
+    size: 193.0
+    translation: [6400.8, 10058.4, 0.]
+    keep: false
+  - tag: 166
+    size: 193.0
+    translation: [6400.8, 10972.8, 0.]
+    keep: false
+  - tag: 167
+    size: 193.0
+    translation: [6400.8, 11887.2, 0.]
+    keep: false
+  - tag: 168
+    size: 193.0
+    translation: [6400.8, 12801.6, 0.]
+    keep: false
+  - tag: 169
+    size: 193.0
+    translation: [6400.8, 13716.0, 0.]
+    keep: false
+  - tag: 170
+    size: 193.0
+    translation: [6400.8, 14630.4, 0.]
+    keep: false
+  - tag: 171
+    size: 193.0
+    translation: [6400.8, 15544.8, 0.]
+    keep: false
+  - tag: 172
+    size: 193.0
+    translation: [6400.8, 16459.2, 0.]
+    keep: false
+  - tag: 173
+    size: 193.0
+    translation: [6400.8, 17373.6, 0.]
+    keep: false
+  - tag: 174
+    size: 193.0
+    translation: [6400.8, 18288.0, 0.]
+    keep: false
+  - tag: 175
+    size: 193.0
+    translation: [6400.8, 19202.4, 0.]
+    keep: false
+  - tag: 176
+    size: 193.0
+    translation: [7315.2, 0.0, 0.]
+    keep: false
+  - tag: 177
+    size: 193.0
+    translation: [7315.2, 914.4, 0.]
+    keep: false
+  - tag: 178
+    size: 193.0
+    translation: [7315.2, 1828.8, 0.]
+    keep: false
+  - tag: 179
+    size: 193.0
+    translation: [7315.2, 2743.2, 0.]
+    keep: false
+  - tag: 180
+    size: 193.0
+    translation: [7315.2, 3657.6, 0.]
+    keep: false
+  - tag: 181
+    size: 193.0
+    translation: [7315.2, 4572.0, 0.]
+    keep: false
+  - tag: 182
+    size: 193.0
+    translation: [7315.2, 5486.4, 0.]
+    keep: false
+  - tag: 183
+    size: 193.0
+    translation: [7315.2, 6400.8, 0.]
+    keep: false
+  - tag: 184
+    size: 193.0
+    translation: [7315.2, 7315.2, 0.]
+    keep: false
+  - tag: 185
+    size: 193.0
+    translation: [7315.2, 8229.6, 0.]
+    keep: false
+  - tag: 186
+    size: 193.0
+    translation: [7315.2, 9144.0, 0.]
+    keep: false
+  - tag: 187
+    size: 193.0
+    translation: [7315.2, 10058.4, 0.]
+    keep: false
+  - tag: 188
+    size: 193.0
+    translation: [7315.2, 10972.8, 0.]
+    keep: false
+  - tag: 189
+    size: 193.0
+    translation: [7315.2, 11887.2, 0.]
+    keep: false
+  - tag: 190
+    size: 193.0
+    translation: [7315.2, 12801.6, 0.]
+    keep: false
+  - tag: 191
+    size: 193.0
+    translation: [7315.2, 13716.0, 0.]
+    keep: false
+  - tag: 192
+    size: 193.0
+    translation: [7315.2, 14630.4, 0.]
+    keep: false
+  - tag: 193
+    size: 193.0
+    translation: [7315.2, 15544.8, 0.]
+    keep: false
+  - tag: 194
+    size: 193.0
+    translation: [7315.2, 16459.2, 0.]
+    keep: false
+  - tag: 195
+    size: 193.0
+    translation: [7315.2, 17373.6, 0.]
+    keep: false
+  - tag: 196
+    size: 193.0
+    translation: [7315.2, 18288.0, 0.]
+    keep: false
+  - tag: 197
+    size: 193.0
+    translation: [7315.2, 19202.4, 0.]
+    keep: false
+  - tag: 198
+    size: 193.0
+    translation: [8229.6, 0.0, 0.]
+    keep: false
+  - tag: 199
+    size: 193.0
+    translation: [8229.6, 914.4, 0.]
+    keep: false
+  - tag: 200
+    size: 193.0
+    translation: [8229.6, 1828.8, 0.]
+    keep: false
+  - tag: 201
+    size: 193.0
+    translation: [8229.6, 2743.2, 0.]
+    keep: false
+  - tag: 202
+    size: 193.0
+    translation: [8229.6, 3657.6, 0.]
+    keep: false
+  - tag: 203
+    size: 193.0
+    translation: [8229.6, 4572.0, 0.]
+    keep: false
+  - tag: 204
+    size: 193.0
+    translation: [8229.6, 5486.4, 0.]
+    keep: false
+  - tag: 205
+    size: 193.0
+    translation: [8229.6, 6400.8, 0.]
+    keep: false
+  - tag: 206
+    size: 193.0
+    translation: [8229.6, 7315.2, 0.]
+    keep: false
+  - tag: 207
+    size: 193.0
+    translation: [8229.6, 8229.6, 0.]
+    keep: false
+  - tag: 208
+    size: 193.0
+    translation: [8229.6, 9144.0, 0.]
+    keep: false
+  - tag: 209
+    size: 193.0
+    translation: [8229.6, 10058.4, 0.]
+    keep: false
+  - tag: 210
+    size: 193.0
+    translation: [8229.6, 10972.8, 0.]
+    keep: false
+  - tag: 211
+    size: 193.0
+    translation: [8229.6, 11887.2, 0.]
+    keep: false
+  - tag: 212
+    size: 193.0
+    translation: [8229.6, 12801.6, 0.]
+    keep: false
+  - tag: 213
+    size: 193.0
+    translation: [8229.6, 13716.0, 0.]
+    keep: false
+  - tag: 214
+    size: 193.0
+    translation: [8229.6, 14630.4, 0.]
+    keep: false
+  - tag: 215
+    size: 193.0
+    translation: [8229.6, 15544.8, 0.]
+    keep: false
+  - tag: 216
+    size: 193.0
+    translation: [8229.6, 16459.2, 0.]
+    keep: false
+  - tag: 217
+    size: 193.0
+    translation: [8229.6, 17373.6, 0.]
+    keep: false
+  - tag: 218
+    size: 193.0
+    translation: [8229.6, 18288.0, 0.]
+    keep: false
+  - tag: 219
+    size: 193.0
+    translation: [8229.6, 19202.4, 0.]
+    keep: false
+  - tag: 220
+    size: 193.0
+    translation: [9144.0, 0.0, 0.]
+    keep: false
+  - tag: 221
+    size: 193.0
+    translation: [9144.0, 914.4, 0.]
+    keep: false
+  - tag: 222
+    size: 193.0
+    translation: [9144.0, 1828.8, 0.]
+    keep: false
+  - tag: 223
+    size: 193.0
+    translation: [9144.0, 2743.2, 0.]
+    keep: false
+  - tag: 224
+    size: 193.0
+    translation: [9144.0, 3657.6, 0.]
+    keep: false
+  - tag: 225
+    size: 193.0
+    translation: [9144.0, 4572.0, 0.]
+    keep: false
+  - tag: 226
+    size: 193.0
+    translation: [9144.0, 5486.4, 0.]
+    keep: false
+  - tag: 227
+    size: 193.0
+    translation: [9144.0, 6400.8, 0.]
+    keep: false
+  - tag: 228
+    size: 193.0
+    translation: [9144.0, 7315.2, 0.]
+    keep: false
+  - tag: 229
+    size: 193.0
+    translation: [9144.0, 8229.6, 0.]
+    keep: false
+  - tag: 230
+    size: 193.0
+    translation: [9144.0, 9144.0, 0.]
+    keep: false
+  - tag: 231
+    size: 193.0
+    translation: [9144.0, 10058.4, 0.]
+    keep: false
+  - tag: 232
+    size: 193.0
+    translation: [9144.0, 10972.8, 0.]
+    keep: false
+  - tag: 233
+    size: 193.0
+    translation: [9144.0, 11887.2, 0.]
+    keep: false
+  - tag: 234
+    size: 193.0
+    translation: [9144.0, 12801.6, 0.]
+    keep: false
+  - tag: 235
+    size: 193.0
+    translation: [9144.0, 13716.0, 0.]
+    keep: false
+  - tag: 236
+    size: 193.0
+    translation: [9144.0, 14630.4, 0.]
+    keep: false
+  - tag: 237
+    size: 193.0
+    translation: [9144.0, 15544.8, 0.]
+    keep: false
+  - tag: 238
+    size: 193.0
+    translation: [9144.0, 16459.2, 0.]
+    keep: false
+  - tag: 239
+    size: 193.0
+    translation: [9144.0, 17373.6, 0.]
+    keep: false
+  - tag: 240
+    size: 193.0
+    translation: [9144.0, 18288.0, 0.]
+    keep: false
+  - tag: 241
+    size: 193.0
+    translation: [9144.0, 19202.4, 0.]
+    keep: false
+  - tag: 242
+    size: 193.0
+    translation: [10058.4, 0.0, 0.]
+    keep: false
+  - tag: 243
+    size: 193.0
+    translation: [10058.4, 914.4, 0.]
+    keep: false
+  - tag: 244
+    size: 193.0
+    translation: [10058.4, 1828.8, 0.]
+    keep: false
+  - tag: 245
+    size: 193.0
+    translation: [10058.4, 2743.2, 0.]
+    keep: false
+  - tag: 246
+    size: 193.0
+    translation: [10058.4, 3657.6, 0.]
+    keep: false
+  - tag: 247
+    size: 193.0
+    translation: [10058.4, 4572.0, 0.]
+    keep: false
+  - tag: 248
+    size: 193.0
+    translation: [10058.4, 5486.4, 0.]
+    keep: false
+  - tag: 249
+    size: 193.0
+    translation: [10058.4, 6400.8, 0.]
+    keep: false
+  - tag: 250
+    size: 193.0
+    translation: [10058.4, 7315.2, 0.]
+    keep: false
+  - tag: 251
+    size: 193.0
+    translation: [10058.4, 8229.6, 0.]
+    keep: false
+  - tag: 252
+    size: 193.0
+    translation: [10058.4, 9144.0, 0.]
+    keep: false
+  - tag: 253
+    size: 193.0
+    translation: [10058.4, 10058.4, 0.]
+    keep: false
+  - tag: 254
+    size: 193.0
+    translation: [10058.4, 10972.8, 0.]
+    keep: false
+  - tag: 255
+    size: 193.0
+    translation: [10058.4, 11887.2, 0.]
+    keep: false
+  - tag: 256
+    size: 193.0
+    translation: [10058.4, 12801.6, 0.]
+    keep: false
+  - tag: 257
+    size: 193.0
+    translation: [10058.4, 13716.0, 0.]
+    keep: false
+  - tag: 258
+    size: 193.0
+    translation: [10058.4, 14630.4, 0.]
+    keep: false
+  - tag: 259
+    size: 193.0
+    translation: [10058.4, 15544.8, 0.]
+    keep: false
+  - tag: 260
+    size: 193.0
+    translation: [10058.4, 16459.2, 0.]
+    keep: false
+  - tag: 261
+    size: 193.0
+    translation: [10058.4, 17373.6, 0.]
+    keep: false
+  - tag: 262
+    size: 193.0
+    translation: [10058.4, 18288.0, 0.]
+    keep: false
+  - tag: 263
+    size: 193.0
+    translation: [10058.4, 19202.4, 0.]
+    keep: false
+  - tag: 264
+    size: 193.0
+    translation: [10972.8, 0.0, 0.]
+    keep: false
+  - tag: 265
+    size: 193.0
+    translation: [10972.8, 914.4, 0.]
+    keep: false
+  - tag: 266
+    size: 193.0
+    translation: [10972.8, 1828.8, 0.]
+    keep: false
+  - tag: 267
+    size: 193.0
+    translation: [10972.8, 2743.2, 0.]
+    keep: false
+  - tag: 268
+    size: 193.0
+    translation: [10972.8, 3657.6, 0.]
+    keep: false
+  - tag: 269
+    size: 193.0
+    translation: [10972.8, 4572.0, 0.]
+    keep: false
+  - tag: 270
+    size: 193.0
+    translation: [10972.8, 5486.4, 0.]
+    keep: false
+  - tag: 271
+    size: 193.0
+    translation: [10972.8, 6400.8, 0.]
+    keep: false
+  - tag: 272
+    size: 193.0
+    translation: [10972.8, 7315.2, 0.]
+    keep: false
+  - tag: 273
+    size: 193.0
+    translation: [10972.8, 8229.6, 0.]
+    keep: false
+  - tag: 274
+    size: 193.0
+    translation: [10972.8, 9144.0, 0.]
+    keep: false
+  - tag: 275
+    size: 193.0
+    translation: [10972.8, 10058.4, 0.]
+    keep: false
+  - tag: 276
+    size: 193.0
+    translation: [10972.8, 10972.8, 0.]
+    keep: false
+  - tag: 277
+    size: 193.0
+    translation: [10972.8, 11887.2, 0.]
+    keep: false
+  - tag: 278
+    size: 193.0
+    translation: [10972.8, 12801.6, 0.]
+    keep: false
+  - tag: 279
+    size: 193.0
+    translation: [10972.8, 13716.0, 0.]
+    keep: false
+  - tag: 280
+    size: 193.0
+    translation: [10972.8, 14630.4, 0.]
+    keep: false
+  - tag: 281
+    size: 193.0
+    translation: [10972.8, 15544.8, 0.]
+    keep: false
+  - tag: 282
+    size: 193.0
+    translation: [10972.8, 16459.2, 0.]
+    keep: false
+  - tag: 283
+    size: 193.0
+    translation: [10972.8, 17373.6, 0.]
+    keep: false
+  - tag: 284
+    size: 193.0
+    translation: [10972.8, 18288.0, 0.]
+    keep: false
+  - tag: 285
+    size: 193.0
+    translation: [10972.8, 19202.4, 0.]
+    keep: false
+  - tag: 286
+    size: 193.0
+    translation: [11887.2, 0.0, 0.]
+    keep: false
+  - tag: 287
+    size: 193.0
+    translation: [11887.2, 914.4, 0.]
+    keep: false
+  - tag: 288
+    size: 193.0
+    translation: [11887.2, 1828.8, 0.]
+    keep: false
+  - tag: 289
+    size: 193.0
+    translation: [11887.2, 2743.2, 0.]
+    keep: false
+  - tag: 290
+    size: 193.0
+    translation: [11887.2, 3657.6, 0.]
+    keep: false
+  - tag: 291
+    size: 193.0
+    translation: [11887.2, 4572.0, 0.]
+    keep: false
+  - tag: 292
+    size: 193.0
+    translation: [11887.2, 5486.4, 0.]
+    keep: false
+  - tag: 293
+    size: 193.0
+    translation: [11887.2, 6400.8, 0.]
+    keep: false
+  - tag: 294
+    size: 193.0
+    translation: [11887.2, 7315.2, 0.]
+    keep: false
+  - tag: 295
+    size: 193.0
+    translation: [11887.2, 8229.6, 0.]
+    keep: false
+  - tag: 296
+    size: 193.0
+    translation: [11887.2, 9144.0, 0.]
+    keep: false
+  - tag: 297
+    size: 193.0
+    translation: [11887.2, 10058.4, 0.]
+    keep: false
+  - tag: 298
+    size: 193.0
+    translation: [11887.2, 10972.8, 0.]
+    keep: false
+  - tag: 299
+    size: 193.0
+    translation: [11887.2, 11887.2, 0.]
+    keep: false
+  - tag: 300
+    size: 193.0
+    translation: [11887.2, 12801.6, 0.]
+    keep: false
+  - tag: 301
+    size: 193.0
+    translation: [11887.2, 13716.0, 0.]
+    keep: false
+  - tag: 302
+    size: 193.0
+    translation: [11887.2, 14630.4, 0.]
+    keep: false
+  - tag: 303
+    size: 193.0
+    translation: [11887.2, 15544.8, 0.]
+    keep: false
+  - tag: 304
+    size: 193.0
+    translation: [11887.2, 16459.2, 0.]
+    keep: false
+  - tag: 305
+    size: 193.0
+    translation: [11887.2, 17373.6, 0.]
+    keep: false
+  - tag: 306
+    size: 193.0
+    translation: [11887.2, 18288.0, 0.]
+    keep: false
+  - tag: 307
+    size: 193.0
+    translation: [11887.2, 19202.4, 0.]
+    keep: false
+  - tag: 308
+    size: 193.0
+    translation: [12801.6, 0.0, 0.]
+    keep: false
+  - tag: 309
+    size: 193.0
+    translation: [12801.6, 914.4, 0.]
+    keep: false
+  - tag: 310
+    size: 193.0
+    translation: [12801.6, 1828.8, 0.]
+    keep: false
+  - tag: 311
+    size: 193.0
+    translation: [12801.6, 2743.2, 0.]
+    keep: false
+  - tag: 312
+    size: 193.0
+    translation: [12801.6, 3657.6, 0.]
+    keep: false
+  - tag: 313
+    size: 193.0
+    translation: [12801.6, 4572.0, 0.]
+    keep: false
+  - tag: 314
+    size: 193.0
+    translation: [12801.6, 5486.4, 0.]
+    keep: false
+  - tag: 315
+    size: 193.0
+    translation: [12801.6, 6400.8, 0.]
+    keep: false
+  - tag: 316
+    size: 193.0
+    translation: [12801.6, 7315.2, 0.]
+    keep: false
+  - tag: 317
+    size: 193.0
+    translation: [12801.6, 8229.6, 0.]
+    keep: false
+  - tag: 318
+    size: 193.0
+    translation: [12801.6, 9144.0, 0.]
+    keep: false
+  - tag: 319
+    size: 193.0
+    translation: [12801.6, 10058.4, 0.]
+    keep: false
+  - tag: 320
+    size: 193.0
+    translation: [12801.6, 10972.8, 0.]
+    keep: false
+  - tag: 321
+    size: 193.0
+    translation: [12801.6, 11887.2, 0.]
+    keep: false
+  - tag: 322
+    size: 193.0
+    translation: [12801.6, 12801.6, 0.]
+    keep: false
+  - tag: 323
+    size: 193.0
+    translation: [12801.6, 13716.0, 0.]
+    keep: false
+  - tag: 324
+    size: 193.0
+    translation: [12801.6, 14630.4, 0.]
+    keep: false
+  - tag: 325
+    size: 193.0
+    translation: [12801.6, 15544.8, 0.]
+    keep: false
+  - tag: 326
+    size: 193.0
+    translation: [12801.6, 16459.2, 0.]
+    keep: false
+  - tag: 327
+    size: 193.0
+    translation: [12801.6, 17373.6, 0.]
+    keep: false
+  - tag: 328
+    size: 193.0
+    translation: [12801.6, 18288.0, 0.]
+    keep: false
+  - tag: 329
+    size: 193.0
+    translation: [12801.6, 19202.4, 0.]
+    keep: false
+  - tag: 330
+    size: 193.0
+    translation: [13716.0, 0.0, 0.]
+    keep: false
+  - tag: 331
+    size: 193.0
+    translation: [13716.0, 914.4, 0.]
+    keep: false
+  - tag: 332
+    size: 193.0
+    translation: [13716.0, 1828.8, 0.]
+    keep: false
+  - tag: 333
+    size: 193.0
+    translation: [13716.0, 2743.2, 0.]
+    keep: false
+  - tag: 334
+    size: 193.0
+    translation: [13716.0, 3657.6, 0.]
+    keep: false
+  - tag: 335
+    size: 193.0
+    translation: [13716.0, 4572.0, 0.]
+    keep: false
+  - tag: 336
+    size: 193.0
+    translation: [13716.0, 5486.4, 0.]
+    keep: false
+  - tag: 337
+    size: 193.0
+    translation: [13716.0, 6400.8, 0.]
+    keep: false
+  - tag: 338
+    size: 193.0
+    translation: [13716.0, 7315.2, 0.]
+    keep: false
+  - tag: 339
+    size: 193.0
+    translation: [13716.0, 8229.6, 0.]
+    keep: false
+  - tag: 340
+    size: 193.0
+    translation: [13716.0, 9144.0, 0.]
+    keep: false
+  - tag: 341
+    size: 193.0
+    translation: [13716.0, 10058.4, 0.]
+    keep: false
+  - tag: 342
+    size: 193.0
+    translation: [13716.0, 10972.8, 0.]
+    keep: false
+  - tag: 343
+    size: 193.0
+    translation: [13716.0, 11887.2, 0.]
+    keep: false
+  - tag: 344
+    size: 193.0
+    translation: [13716.0, 12801.6, 0.]
+    keep: false
+  - tag: 345
+    size: 193.0
+    translation: [13716.0, 13716.0, 0.]
+    keep: false
+  - tag: 346
+    size: 193.0
+    translation: [13716.0, 14630.4, 0.]
+    keep: false
+  - tag: 347
+    size: 193.0
+    translation: [13716.0, 15544.8, 0.]
+    keep: false
+  - tag: 348
+    size: 193.0
+    translation: [13716.0, 16459.2, 0.]
+    keep: false
+  - tag: 349
+    size: 193.0
+    translation: [13716.0, 17373.6, 0.]
+    keep: false
+  - tag: 350
+    size: 193.0
+    translation: [13716.0, 18288.0, 0.]
+    keep: false
+  - tag: 351
+    size: 193.0
+    translation: [13716.0, 19202.4, 0.]
+    keep: false
+  - tag: 352
+    size: 193.0
+    translation: [14630.4, 0.0, 0.]
+    keep: false
+  - tag: 353
+    size: 193.0
+    translation: [14630.4, 914.4, 0.]
+    keep: false
+  - tag: 354
+    size: 193.0
+    translation: [14630.4, 1828.8, 0.]
+    keep: false
+  - tag: 355
+    size: 193.0
+    translation: [14630.4, 2743.2, 0.]
+    keep: false
+  - tag: 356
+    size: 193.0
+    translation: [14630.4, 3657.6, 0.]
+    keep: false
+  - tag: 357
+    size: 193.0
+    translation: [14630.4, 4572.0, 0.]
+    keep: false
+  - tag: 358
+    size: 193.0
+    translation: [14630.4, 5486.4, 0.]
+    keep: false
+  - tag: 359
+    size: 193.0
+    translation: [14630.4, 6400.8, 0.]
+    keep: false
+  - tag: 360
+    size: 193.0
+    translation: [14630.4, 7315.2, 0.]
+    keep: false
+  - tag: 361
+    size: 193.0
+    translation: [14630.4, 8229.6, 0.]
+    keep: false
+  - tag: 362
+    size: 193.0
+    translation: [14630.4, 9144.0, 0.]
+    keep: false
+  - tag: 363
+    size: 193.0
+    translation: [14630.4, 10058.4, 0.]
+    keep: false
+  - tag: 364
+    size: 193.0
+    translation: [14630.4, 10972.8, 0.]
+    keep: false
+  - tag: 365
+    size: 193.0
+    translation: [14630.4, 11887.2, 0.]
+    keep: false
+  - tag: 366
+    size: 193.0
+    translation: [14630.4, 12801.6, 0.]
+    keep: false
+  - tag: 367
+    size: 193.0
+    translation: [14630.4, 13716.0, 0.]
+    keep: false
+  - tag: 368
+    size: 193.0
+    translation: [14630.4, 14630.4, 0.]
+    keep: false
+  - tag: 369
+    size: 193.0
+    translation: [14630.4, 15544.8, 0.]
+    keep: false
+  - tag: 370
+    size: 193.0
+    translation: [14630.4, 16459.2, 0.]
+    keep: false
+  - tag: 371
+    size: 193.0
+    translation: [14630.4, 17373.6, 0.]
+    keep: false
+  - tag: 372
+    size: 193.0
+    translation: [14630.4, 18288.0, 0.]
+    keep: false
+  - tag: 373
+    size: 193.0
+    translation: [14630.4, 19202.4, 0.]
+    keep: false
+  - tag: 374
+    size: 193.0
+    translation: [15544.8, 0.0, 0.]
+    keep: false
+  - tag: 375
+    size: 193.0
+    translation: [15544.8, 914.4, 0.]
+    keep: false
+  - tag: 376
+    size: 193.0
+    translation: [15544.8, 1828.8, 0.]
+    keep: false
+  - tag: 377
+    size: 193.0
+    translation: [15544.8, 2743.2, 0.]
+    keep: false
+  - tag: 378
+    size: 193.0
+    translation: [15544.8, 3657.6, 0.]
+    keep: false
+  - tag: 379
+    size: 193.0
+    translation: [15544.8, 4572.0, 0.]
+    keep: false
+  - tag: 380
+    size: 193.0
+    translation: [15544.8, 5486.4, 0.]
+    keep: false
+  - tag: 381
+    size: 193.0
+    translation: [15544.8, 6400.8, 0.]
+    keep: false
+  - tag: 382
+    size: 193.0
+    translation: [15544.8, 7315.2, 0.]
+    keep: false
+  - tag: 383
+    size: 193.0
+    translation: [15544.8, 8229.6, 0.]
+    keep: false
+  - tag: 384
+    size: 193.0
+    translation: [15544.8, 9144.0, 0.]
+    keep: false
+  - tag: 385
+    size: 193.0
+    translation: [15544.8, 10058.4, 0.]
+    keep: false
+  - tag: 386
+    size: 193.0
+    translation: [15544.8, 10972.8, 0.]
+    keep: false
+  - tag: 387
+    size: 193.0
+    translation: [15544.8, 11887.2, 0.]
+    keep: false
+  - tag: 388
+    size: 193.0
+    translation: [15544.8, 12801.6, 0.]
+    keep: false
+  - tag: 389
+    size: 193.0
+    translation: [15544.8, 13716.0, 0.]
+    keep: false
+  - tag: 390
+    size: 193.0
+    translation: [15544.8, 14630.4, 0.]
+    keep: false
+  - tag: 391
+    size: 193.0
+    translation: [15544.8, 15544.8, 0.]
+    keep: false
+  - tag: 392
+    size: 193.0
+    translation: [15544.8, 16459.2, 0.]
+    keep: false
+  - tag: 393
+    size: 193.0
+    translation: [15544.8, 17373.6, 0.]
+    keep: false
+  - tag: 394
+    size: 193.0
+    translation: [15544.8, 18288.0, 0.]
+    keep: false
+  - tag: 395
+    size: 193.0
+    translation: [15544.8, 19202.4, 0.]
+    keep: false
+  - tag: 396
+    size: 193.0
+    translation: [16459.2, 0.0, 0.]
+    keep: false
+  - tag: 397
+    size: 193.0
+    translation: [16459.2, 914.4, 0.]
+    keep: false
+  - tag: 398
+    size: 193.0
+    translation: [16459.2, 1828.8, 0.]
+    keep: false
+  - tag: 399
+    size: 193.0
+    translation: [16459.2, 2743.2, 0.]
+    keep: false
+  - tag: 400
+    size: 193.0
+    translation: [16459.2, 3657.6, 0.]
+    keep: false
+  - tag: 401
+    size: 193.0
+    translation: [16459.2, 4572.0, 0.]
+    keep: false
+  - tag: 402
+    size: 193.0
+    translation: [16459.2, 5486.4, 0.]
+    keep: false
+  - tag: 403
+    size: 193.0
+    translation: [16459.2, 6400.8, 0.]
+    keep: false
+  - tag: 404
+    size: 193.0
+    translation: [16459.2, 7315.2, 0.]
+    keep: false
+  - tag: 405
+    size: 193.0
+    translation: [16459.2, 8229.6, 0.]
+    keep: false
+  - tag: 406
+    size: 193.0
+    translation: [16459.2, 9144.0, 0.]
+    keep: false
+  - tag: 407
+    size: 193.0
+    translation: [16459.2, 10058.4, 0.]
+    keep: false
+  - tag: 408
+    size: 193.0
+    translation: [16459.2, 10972.8, 0.]
+    keep: false
+  - tag: 409
+    size: 193.0
+    translation: [16459.2, 11887.2, 0.]
+    keep: false
+  - tag: 410
+    size: 193.0
+    translation: [16459.2, 12801.6, 0.]
+    keep: false
+  - tag: 411
+    size: 193.0
+    translation: [16459.2, 13716.0, 0.]
+    keep: false
+  - tag: 412
+    size: 193.0
+    translation: [16459.2, 14630.4, 0.]
+    keep: false
+  - tag: 413
+    size: 193.0
+    translation: [16459.2, 15544.8, 0.]
+    keep: false
+  - tag: 414
+    size: 193.0
+    translation: [16459.2, 16459.2, 0.]
+    keep: false
+  - tag: 415
+    size: 193.0
+    translation: [16459.2, 17373.6, 0.]
+    keep: false
+  - tag: 416
+    size: 193.0
+    translation: [16459.2, 18288.0, 0.]
+    keep: false
+  - tag: 417
+    size: 193.0
+    translation: [16459.2, 19202.4, 0.]
+    keep: false
+  - tag: 418
+    size: 193.0
+    translation: [17373.6, 0.0, 0.]
+    keep: false
+  - tag: 419
+    size: 193.0
+    translation: [17373.6, 914.4, 0.]
+    keep: false
+  - tag: 420
+    size: 193.0
+    translation: [17373.6, 1828.8, 0.]
+    keep: false
+  - tag: 421
+    size: 193.0
+    translation: [17373.6, 2743.2, 0.]
+    keep: false
+  - tag: 422
+    size: 193.0
+    translation: [17373.6, 3657.6, 0.]
+    keep: false
+  - tag: 423
+    size: 193.0
+    translation: [17373.6, 4572.0, 0.]
+    keep: false
+  - tag: 424
+    size: 193.0
+    translation: [17373.6, 5486.4, 0.]
+    keep: false
+  - tag: 425
+    size: 193.0
+    translation: [17373.6, 6400.8, 0.]
+    keep: false
+  - tag: 426
+    size: 193.0
+    translation: [17373.6, 7315.2, 0.]
+    keep: false
+  - tag: 427
+    size: 193.0
+    translation: [17373.6, 8229.6, 0.]
+    keep: false
+  - tag: 428
+    size: 193.0
+    translation: [17373.6, 9144.0, 0.]
+    keep: false
+  - tag: 429
+    size: 193.0
+    translation: [17373.6, 10058.4, 0.]
+    keep: false
+  - tag: 430
+    size: 193.0
+    translation: [17373.6, 10972.8, 0.]
+    keep: false
+  - tag: 431
+    size: 193.0
+    translation: [17373.6, 11887.2, 0.]
+    keep: false
+  - tag: 432
+    size: 193.0
+    translation: [17373.6, 12801.6, 0.]
+    keep: false
+  - tag: 433
+    size: 193.0
+    translation: [17373.6, 13716.0, 0.]
+    keep: false
+  - tag: 434
+    size: 193.0
+    translation: [17373.6, 14630.4, 0.]
+    keep: false
+  - tag: 435
+    size: 193.0
+    translation: [17373.6, 15544.8, 0.]
+    keep: false
+  - tag: 436
+    size: 193.0
+    translation: [17373.6, 16459.2, 0.]
+    keep: false
+  - tag: 437
+    size: 193.0
+    translation: [17373.6, 17373.6, 0.]
+    keep: false
+  - tag: 438
+    size: 193.0
+    translation: [17373.6, 18288.0, 0.]
+    keep: false
+  - tag: 439
+    size: 193.0
+    translation: [17373.6, 19202.4, 0.]
+    keep: false
+  - tag: 440
+    size: 193.0
+    translation: [18288.0, 0.0, 0.]
+    keep: false
+  - tag: 441
+    size: 193.0
+    translation: [18288.0, 914.4, 0.]
+    keep: false
+  - tag: 442
+    size: 193.0
+    translation: [18288.0, 1828.8, 0.]
+    keep: false
+  - tag: 443
+    size: 193.0
+    translation: [18288.0, 2743.2, 0.]
+    keep: false
+  - tag: 444
+    size: 193.0
+    translation: [18288.0, 3657.6, 0.]
+    keep: false
+  - tag: 445
+    size: 193.0
+    translation: [18288.0, 4572.0, 0.]
+    keep: false
+  - tag: 446
+    size: 193.0
+    translation: [18288.0, 5486.4, 0.]
+    keep: false
+  - tag: 447
+    size: 193.0
+    translation: [18288.0, 6400.8, 0.]
+    keep: false
+  - tag: 448
+    size: 193.0
+    translation: [18288.0, 7315.2, 0.]
+    keep: false
+  - tag: 449
+    size: 193.0
+    translation: [18288.0, 8229.6, 0.]
+    keep: false
+  - tag: 450
+    size: 193.0
+    translation: [18288.0, 9144.0, 0.]
+    keep: false
+  - tag: 451
+    size: 193.0
+    translation: [18288.0, 10058.4, 0.]
+    keep: false
+  - tag: 452
+    size: 193.0
+    translation: [18288.0, 10972.8, 0.]
+    keep: false
+  - tag: 453
+    size: 193.0
+    translation: [18288.0, 11887.2, 0.]
+    keep: false
+  - tag: 454
+    size: 193.0
+    translation: [18288.0, 12801.6, 0.]
+    keep: false
+  - tag: 455
+    size: 193.0
+    translation: [18288.0, 13716.0, 0.]
+    keep: false
+  - tag: 456
+    size: 193.0
+    translation: [18288.0, 14630.4, 0.]
+    keep: false
+  - tag: 457
+    size: 193.0
+    translation: [18288.0, 15544.8, 0.]
+    keep: false
+  - tag: 458
+    size: 193.0
+    translation: [18288.0, 16459.2, 0.]
+    keep: false
+  - tag: 459
+    size: 193.0
+    translation: [18288.0, 17373.6, 0.]
+    keep: false
+  - tag: 460
+    size: 193.0
+    translation: [18288.0, 18288.0, 0.]
+    keep: false
+  - tag: 461
+    size: 193.0
+    translation: [18288.0, 19202.4, 0.]
+    keep: false

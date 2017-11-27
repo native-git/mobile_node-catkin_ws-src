@@ -1,0 +1,13 @@
+<launch>
+
+<node name="rest_api" pkg="grbils" type="rest_api.py" respawn="false">
+	</node>
+
+<node name="location_server" pkg="grbils" type="location_server.py" respawn="false">
+	</node>
+
+<node name="target_server" pkg="grbils" type="target_server.py" respawn="false">
+	</node>
+
+
+</launch>

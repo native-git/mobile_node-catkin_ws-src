@@ -1,0 +1,9 @@
+<launch>
+
+<node name="namespace_test" pkg="grbils" type="namespace_test.py" respawn="false">
+	</node>
+
+<node name="namespace_test" pkg="grbils" type="namespace_test.py" respawn="false" ns="roomba">
+	</node>
+
+</launch>

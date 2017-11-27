@@ -1,0 +1,21 @@
+digraph G {
+"hd_cam" -> "hd_cam/GrBILS_grid"[label="Broadcaster: /hd_cam_markers\nAverage rate: 30.228 Hz\nMost recent transform: 1497979125.852 ( 0.047 sec old)\nBuffer length: 4.731 sec\n"];
+"pioneer" -> "hd_cam"[label="Broadcaster: /pioneer_2_hd_cam\nAverage rate: 10.205 Hz\nMost recent transform: 1497979125.961 ( -0.062 sec old)\nBuffer length: 4.704 sec\n"];
+"hd_cam" -> "hd_cam/tag_310"[label="Broadcaster: /hd_cam_markers\nAverage rate: 30.228 Hz\nMost recent transform: 1497979125.852 ( 0.047 sec old)\nBuffer length: 4.731 sec\n"];
+"hd_cam" -> "hd_cam/tag_311"[label="Broadcaster: /hd_cam_markers\nAverage rate: 30.228 Hz\nMost recent transform: 1497979125.852 ( 0.047 sec old)\nBuffer length: 4.731 sec\n"];
+"odom_guess" -> "map"[label="Broadcaster: /odom_guess_2_map\nAverage rate: 10.203 Hz\nMost recent transform: 1497979125.952 ( -0.053 sec old)\nBuffer length: 4.704 sec\n"];
+"map_zero" -> "odom_guess"[label="Broadcaster: /map_zero_2_odom_guess\nAverage rate: 10.208 Hz\nMost recent transform: 1497979125.917 ( -0.018 sec old)\nBuffer length: 4.604 sec\n"];
+"GrBILS_grid" -> "hd_cam_new"[label="Broadcaster: /tf_inverter\nAverage rate: 15.211 Hz\nMost recent transform: 1497979125.867 ( 0.032 sec old)\nBuffer length: 4.733 sec\n"];
+"hd_cam_new" -> "pioneer"[label="Broadcaster: /hd_cam_2_pioneer\nAverage rate: 10.203 Hz\nMost recent transform: 1497979125.965 ( -0.066 sec old)\nBuffer length: 4.705 sec\n"];
+"front_sonar" -> "sonar"[label="Broadcaster: /front_sonar_2_sonar\nAverage rate: 10.205 Hz\nMost recent transform: 1497979125.900 ( -0.001 sec old)\nBuffer length: 4.606 sec\n"];
+"GrBILS_grid" -> "map_zero"[label="Broadcaster: /grid_2_map_zero\nAverage rate: 10.207 Hz\nMost recent transform: 1497979125.911 ( -0.012 sec old)\nBuffer length: 4.604 sec\n"];
+"map" -> "origin"[label="Broadcaster: /map_2_origin\nAverage rate: 10.209 Hz\nMost recent transform: 1497979125.923 ( -0.024 sec old)\nBuffer length: 4.604 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1497979125.899"[ shape=plaintext ] ;
+ }->"GrBILS_grid";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1497979125.899"[ shape=plaintext ] ;
+ }->"front_sonar";
+}

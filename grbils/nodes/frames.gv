@@ -1,0 +1,22 @@
+digraph G {
+"map_zero" -> "map"[label="Broadcaster: /grbils/map_zero_2_map\nAverage rate: 10.191 Hz\nMost recent transform: 1508793295.104 ( -0.036 sec old)\nBuffer length: 4.907 sec\n"];
+"GrBILS_grid" -> "map_zero"[label="Broadcaster: /grbils/grid_2_map_zero\nAverage rate: 10.191 Hz\nMost recent transform: 1508793295.104 ( -0.036 sec old)\nBuffer length: 4.906 sec\n"];
+"map" -> "grbils_base_frame"[label="Broadcaster: /grbils_global_planner_base_frame_publisher\nAverage rate: 10.191 Hz\nMost recent transform: 1508793295.138 ( -0.070 sec old)\nBuffer length: 4.906 sec\n"];
+"roomba2/odom" -> "roomba2/base_link"[label="Broadcaster: /roomba2/create_pid_ros_node\nAverage rate: 14.958 Hz\nMost recent transform: 1502745439.708 ( 6047855.360 sec old)\nBuffer length: 5.282 sec\n"];
+"hd_cam_3/GrBILS_grid" -> "GrBILS_grid/hd_cam_3"[label="Broadcaster: /roomba2/hd_cam_3_markers\nAverage rate: 8.382 Hz\nMost recent transform: 1502745439.706 ( 6047855.362 sec old)\nBuffer length: 5.249 sec\n"];
+"GrBILS_grid" -> "hd_cam_3/GrBILS_grid"[label="Broadcaster: /roomba2/hd_cam_3_2_grid\nAverage rate: 10.129 Hz\nMost recent transform: 1502745439.810 ( 6047855.258 sec old)\nBuffer length: 5.232 sec\n"];
+"hd_cam_3" -> "hd_cam_3/tag_288"[label="Broadcaster: /roomba2/hd_cam_3_markers\nAverage rate: 8.382 Hz\nMost recent transform: 1502745439.706 ( 6047855.362 sec old)\nBuffer length: 5.249 sec\n"];
+"GrBILS_grid/hd_cam_3" -> "hd_cam_3"[label="Broadcaster: /roomba2/GrBILS_grid_hd_cam_3_2_hd_cam_3\nAverage rate: 10.109 Hz\nMost recent transform: 1502745439.810 ( 6047855.258 sec old)\nBuffer length: 5.243 sec\n"];
+"hd_cam_3" -> "hd_cam_3/tag_289"[label="Broadcaster: /roomba2/hd_cam_3_markers\nAverage rate: 8.382 Hz\nMost recent transform: 1502745439.706 ( 6047855.362 sec old)\nBuffer length: 5.249 sec\n"];
+"hd_cam_3" -> "hd_cam_3/tag_311"[label="Broadcaster: /roomba2/hd_cam_3_markers\nAverage rate: 8.382 Hz\nMost recent transform: 1502745439.706 ( 6047855.362 sec old)\nBuffer length: 5.249 sec\n"];
+"hd_cam_3" -> "hd_cam_3/tag_312"[label="Broadcaster: /roomba2/hd_cam_3_markers\nAverage rate: 8.382 Hz\nMost recent transform: 1502745439.706 ( 6047855.362 sec old)\nBuffer length: 5.249 sec\n"];
+"GrBILS_grid/hd_cam_3" -> "roomba2"[label="Broadcaster: /roomba2/GrBILS_grid_hd_cam_3_2_roomba2\nAverage rate: 10.133 Hz\nMost recent transform: 1502745439.808 ( 6047855.260 sec old)\nBuffer length: 5.230 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1508793295.068"[ shape=plaintext ] ;
+ }->"GrBILS_grid";
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1508793295.068"[ shape=plaintext ] ;
+ }->"roomba2/odom";
+}

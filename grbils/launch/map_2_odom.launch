@@ -1,0 +1,12 @@
+<launch>
+
+<arg name="target" default="odom" />
+<arg name="x" />
+<arg name="y" />
+<arg name="qx" default="0" />
+<arg name="qy" default="0" />
+<arg name="qz" default="0" />
+<arg name="qw" default="1" />
+<node pkg="tf" type="static_transform_publisher" name="map_2_odom" args="$(arg x) $(arg y) 0 $(arg qx) $(arg qy) $(arg qz) $(arg qw) map $(arg target) 100" ns="alfred"/>
+
+</launch>

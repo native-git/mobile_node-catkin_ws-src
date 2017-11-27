@@ -1,0 +1,43 @@
+<launch>
+
+<node name="hd_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+    <param name="video_device" value="/dev/video0" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="camera_frame_id" value="hd_cam" />
+    <param name="camera_name" value="hd_cam" />
+    <param name="camera_info_url" value="file:///home/native/.ros/camera_info/hd_cam.yaml" />
+    <param name="io_method" value="mmap"/>
+  </node>
+
+  <!-- Sets the image source. -->
+  <arg name="image_topic" default="/hd_cam/image_raw" />
+  <remap from="image" to="$(arg image_topic)" />
+
+  <arg name="camera_frame_id" default="hd_cam" />
+
+ <node pkg="tf" type="static_transform_publisher" name="grid_2_map_zero" args="-2.667  -6.9342 -3.189 0 0 0 GrBILS_grid map_zero 100"/>
+
+<node pkg="tf" type="static_transform_publisher" name="front_sonar_2_sonar" args="0 0 0 0 0 0 front_sonar sonar 100"/>
+
+<node pkg="tf" type="static_transform_publisher" name="odom_guess_2_map" args="-7.327 -1.152 0 -1.524 0 0 odom_guess map 100"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="map_zero_2_odom_guess" args="16.262 10.421 0 1.524 0 0 map_zero odom_guess 100"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="map_2_origin" args="-17.07 -3.048 0 0 0 0 map origin 100"/>
+
+  <!-- node pkg="tf" type="static_transform_publisher" name="map_zero_2_odom" args="17.07 3.048 0 0 0 0 map_zero odom 100"/> -->
+
+ <node pkg="tf" type="static_transform_publisher" name="hd_cam_2_pioneer" args="0 0 -0.085 1.57079633 0 0 hd_cam_new pioneer 100"/> 
+
+ <node pkg="tf" type="static_transform_publisher" name="pioneer_2_hd_cam" args="0 0 0.085 -1.57079633 0 0 pioneer hd_cam 100"/>
+
+ <node name="tf_inverter" pkg="grbils" type="TFInverter_GrBILS.py" respawn="true">
+	</node>
+
+<node name="pioneer_pose_publisher" pkg="grbils" type="pioneer_pose_publisher.py" respawn="true">
+        </node>
+
+
+</launch>

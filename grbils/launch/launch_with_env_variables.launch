@@ -1,0 +1,101 @@
+<launch>
+
+<!-- Starting rosaria driver for motors and encoders 
+  <node name="rosaria" pkg="rosaria" type="RosAria" args="_port:=/dev/ttyUSB0" ns="$(env ROBOT_NAME)">
+  <param name="odom_frame" value="$(env ROBOT_NAME)/odom" />
+  <param name="base_link_frame" value="$(env ROBOT_NAME)/base_link" />
+  <remap from="rosaria/cmd_vel" to="cmd_vel"/>
+  <remap from="rosaria/pose" to="odom"/>
+  </node>
+
+-->
+
+<!-- Launch the roomba controller -->
+ 
+ <arg name="config" default="$(find ca_driver)/config/default.yaml" />
+  <arg name="desc" default="true" />
+
+  <node name="ca_driver" pkg="ca_driver" type="ca_driver" output="screen" ns="$(env ROBOT_NAME)">
+    <rosparam command="load" file="$(arg config)" />
+    <param name="robot_model" value="CREATE_1" />
+    <param name="dev" value="/dev/ttyUSB0" />
+  </node> 
+
+  <!-- Robot description -->
+  <!-- <include if="$(arg desc)" file="$(find ca_description)/launch/create_1.launch" /> -->
+
+<!-- Launch the webcam -->
+<node name="hd_cam" pkg="usb_cam" type="usb_cam_node" output="screen" ns="$(env ROBOT_NAME)">
+    <param name="video_device" value="/dev/video0" />
+    <param name="image_width" value="640" />
+    <param name="image_height" value="480" />
+    <param name="pixel_format" value="yuyv" />
+    <param name="camera_frame_id" value="$(env CAMERA)" />
+    <param name="camera_name" value="$(env CAMERA)" />
+    <param name="camera_info_url" value="file:///home/native/.ros/camera_info/$(env CAMERA).yaml" />
+    <param name="io_method" value="mmap"/>
+  </node>
+
+ <!-- Sets the image source. -->
+  <arg name="image_topic" default="hd_cam/image_raw" />
+  <remap from="image" to="$(arg image_topic)" />
+
+  <arg name="camera_frame_id" default="$(env CAMERA)" />
+  
+  <!-- Defines which and where are the markers in the environment. The sample
+    file (markers_configuration_sample.yml) provides complete documentation.
+    -->
+  <arg name="markers_configuration" 
+    default="$(find ros_markers)/config/GrBILS_grid.yml" />
+  
+  <!-- Sets whether or not to ignore markers not included in the 
+	configuration file.    -->
+  <arg name="omit_other_tags" default="false" />	
+	
+  <!-- Sets the default size of markers, in millimeters, which are not 
+    in the configuration file. (ceiling tags are 78.7mm-->
+  <arg name="default_marker_size" default="152.4" />  <!-- ..big tag size: 304.9.. 6 inches = 152.4 mm and 9 inch = 228.6 mm-->
+
+  <!-- set the level of filtering applied on the detected markers. 1.0 means
+    no filtering, while 0.0 is the maximum level of filtering. 
+    (-1 uses chilitags default value). -->
+  <arg name="gain" default="-1" />
+
+  <!-- set the number of frames an object/marker should be not detected
+    for before it is removed. (-1 uses chilitags default value). -->
+  <arg name="persistence" default="-1" />
+  
+  <node pkg="ros_markers" type="detect" name="$(env CAMERA)_markers" ns="$(env ROBOT_NAME)">
+    <param name="markers_configuration" type="str" 
+      value="$(arg markers_configuration)" />
+    <param name="omit_other_tags" type="bool" value="$(arg omit_other_tags)" />
+    <param name="default_marker_size" type="double" value="$(arg default_marker_size)" />
+    <param name="gain" type="double" value="0.0" />
+    <param name="persistence" type="int" value="$(arg gain)" />
+  </node>
+
+<node pkg="tf" type="static_transform_publisher" name="grid_2_map_zero" args="-2.667  -6.9342 -3.189 0 0 0 GrBILS_grid map_zero 100" ns="$(env ROBOT_NAME)"/>
+
+<node pkg="tf" type="static_transform_publisher" name="front_sonar_2_sonar" args="0 0 0 0 0 0 front_sonar sonar 100" ns="$(env ROBOT_NAME)"/>
+
+<node pkg="tf" type="static_transform_publisher" name="odom_guess_2_map" args="-7.327 -1.152 0 -1.524 0 0 odom_guess map 100" ns="$(env ROBOT_NAME)"/>
+
+<node pkg="tf" type="static_transform_publisher" name="map_zero_2_odom_guess" args="16.262 10.421 0 1.524 0 0 map_zero odom_guess 100" ns="$(env ROBOT_NAME)"/>
+
+<node pkg="tf" type="static_transform_publisher" name="map_2_origin" args="-17.07 -3.048 0 0 0 0 map origin 100" ns="$(env ROBOT_NAME)"/>
+
+<!-- node pkg="tf" type="static_transform_publisher" name="map_zero_2_odom" args="17.07 3.048 0 0 0 0 map_zero odom 100" ns="$(env ROBOT_NAME)"/> -->
+
+<node pkg="tf" type="static_transform_publisher" name="$(env CAMERA)_2_grid" args="0 0 0 0 0 0 $(env CAMERA)/GrBILS_grid GrBILS_grid 100" ns="$(env ROBOT_NAME)"/>
+
+<node pkg="tf" type="static_transform_publisher" name="GrBILS_grid_$(env CAMERA)_2_$(env ROBOT_NAME)" args="0 0 -0.085 1.57079633 0 0 GrBILS_grid/$(env CAMERA) $(env ROBOT_NAME) 100" ns="$(env ROBOT_NAME)"/> 
+
+<node pkg="tf" type="static_transform_publisher" name="GrBILS_grid_$(env CAMERA)_2_$(env CAMERA)" args="0 0 0 0 0 0 GrBILS_grid/$(env CAMERA) $(env CAMERA) 100" ns="$(env ROBOT_NAME)"/>
+
+<!--
+<node pkg="tf" type="static_transform_publisher" name="hd_cam_2_pioneer" args="0 0 -0.085 1.57079633 0 0 hd_cam_new $(env ROBOT_NAME) 100" ns="$(env ROBOT_NAME)"/> 
+
+<node pkg="tf" type="static_transform_publisher" name="pioneer_2_hd_cam" args="0 0 0.085 -1.57079633 0 0 $(env ROBOT_NAME) hd_cam 100" ns="$(env ROBOT_NAME)"/>
+-->
+</launch>
+

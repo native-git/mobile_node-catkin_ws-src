@@ -1,0 +1,13 @@
+
+<launch>
+
+  <!--- Run move_base with parameters -->
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find p3dx_navigation)/config/global_planner/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find p3dx_navigation)/config/global_planner/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find p3dx_navigation)/config/global_planner/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find p3dx_navigation)/config/global_planner/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find p3dx_navigation)/config/global_planner/move_base_params.yaml" command="load" />
+  </node>
+<node pkg="tf" type="static_transform_publisher" name="grbils_global_planner_base_frame_publisher" args="0 0 0 0 0 0 map grbils_base_frame 100"/>
+</launch>

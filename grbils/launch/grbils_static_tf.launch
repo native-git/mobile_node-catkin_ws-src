@@ -1,0 +1,14 @@
+<launch>
+
+<node pkg="tf" type="static_transform_publisher" name="grid_2_map_zero" args="-1.667  -6.3342 -3.189 0 0 0 GrBILS_grid map_zero 100" ns="grbils"/>
+
+<!-- <node pkg="tf" type="static_transform_publisher" name="odom_guess_2_map" args="-7.327 -1.152 0 -1.524 0 0 odom_guess map 58" ns="grbils"/> -->
+
+<!-- <node pkg="tf" type="static_transform_publisher" name="map_2_origin" args="-17.07 -3.048 0 0 0 0 map origin 100" ns="grbils"/> -->
+
+<!-- <node pkg="tf" type="static_transform_publisher" name="map_zero_2_odom_guess" args="16.262 10.421 0 1.524 0 0 map_zero odom_guess 100" ns="grbils"/> -->
+
+<node pkg="tf" type="static_transform_publisher" name="map_zero_2_map" args="17.07 3.048 0 0 0 0 map_zero map 100" ns="grbils"/>
+
+</launch>
+
